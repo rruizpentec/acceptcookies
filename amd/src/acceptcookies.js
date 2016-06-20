@@ -35,7 +35,7 @@ define(['jquery'], function($) {
             document.cookie = 'acceptcookies_accepted_mark=;path=/';
         },
         init: function() {
-            console.log('local_acceptcookies Ready');
+            // Do nothing.
         }
     };
 });
