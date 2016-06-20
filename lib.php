@@ -21,7 +21,7 @@ global $PAGE;
 $isajaxrequest = defined('AJAX_SCRIPT') && AJAX_SCRIPT;
 $iscliscript = defined('CLI_SCRIPT') && CLI_SCRIPT;
 
-if (!$isajaxrequest && !iscliscript) {
+if (!$isajaxrequest && !$iscliscript) {
     $localconfig = get_config('local_acceptcookies');
     $color = (isset($localconfig->color) ? $localconfig->color : '#000000');
     $background = (isset($localconfig->background) ? $localconfig->background : '#DEDEDE');
