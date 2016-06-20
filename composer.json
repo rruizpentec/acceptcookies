@@ -1,0 +1,8 @@
+{
+    "name": "pentec/acceptcookies",
+    "version": "1.0.0",
+    "dist": {
+        "url": "http://svn.samoo.es/svn/moodle_accept_cookies/acceptcookies.zip",
+        "type": "zip"
+    }
+}
